@@ -1,0 +1,12 @@
+Decorator.
+Facilitates the addition of behaviors to individual objects without inheriting from them.
+Adding behavior without altering the class itself.
+
+Motivation.
+1. Want to augment an object with additional functionality;
+2. Do not want to rewrite or alter existing code (OCP);
+3. Want to keep new functionality separate (SRP);
+4. Need to be able to interact with existing structures;
+5. Two options:
+   - Inherit from required object if possible; some classes are final
+   - Build a Decorator, which simply references the decorated object(s).

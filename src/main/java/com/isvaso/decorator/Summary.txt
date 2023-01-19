@@ -1,0 +1,9 @@
+Summary.
+1. A decorator keeps the reference to the decorated object(s);
+2. May or may not forward calls:
+   - IDE can Generate Delegated Members.
+3. Exists in a static variation:
+   - X<Y<Foo>>(/* unpleasant constructor args */)
+   - Very limited dut to:
+     a. Type erasure;
+     b. Inability to inherit from type parameters.

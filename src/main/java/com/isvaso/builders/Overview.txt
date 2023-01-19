@@ -1,0 +1,9 @@
+Builder.
+When piecewise object construction is complicated, provide an API for doing it succinctly.
+
+Builder Motivation:
+1. Some objects are simple and can be created in a single constructor all;
+2. Other objects require a lot of ceremony to create;
+3. Having an objects with 10 constructor arguments is not productive;
+4. Instead, opt for piecewise construction;
+5. Builder provides an API for construction an object step-by-step.

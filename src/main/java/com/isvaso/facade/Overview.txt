@@ -1,0 +1,13 @@
+Overview.
+Provides a simple, easy to understand / user interface over a large and sophisticated body of code.
+Exposing several components through a single interface.
+
+Motivation.
+1. Balancing complexity and presentation / usability;
+2. Typical home:
+   - Many subsystems (electrical, sanitation);
+   - Complex internal structure (e.g, floor layers);
+   - End user is not exposed to internals.
+3. Same with software!
+   - Many systems working to provide flexibility, but...
+   - API consumers it to 'just work'.

@@ -1,0 +1,6 @@
+If you implement the adaptor pattern, sometimes the adapter will generate temporary objects.
+And if you want to avoid the extra generation of those objects, then you build a cache.
+
+So in this case, what we made is we made a static map, which contains a mapping from the hashes over
+the lines that we need points for to a list of corresponding points.
+And then we go into this cache and look for the appropriate points before we actually go off and regenerate.

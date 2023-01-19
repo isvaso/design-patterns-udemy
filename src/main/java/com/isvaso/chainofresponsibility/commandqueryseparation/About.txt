@@ -1,0 +1,13 @@
+Command Query Separation.
+The idea is that whenever we operate on objects, we separate all of the invocations
+into two different concepts, which are called "query" and "command":
+
+1. Command = asking for an action or change (e.g, please set your attack value to 2).
+2. Query = asking for information (e.g., please give me your attack value).
+3. CQS = having separate means of sending commands and queries to e.g., direct field access.
+
+So instead of, for example, directly accessing a field of a particular class, what you do is you
+send it a message, either you send it a message, telling it to please give me the contents of the
+field or you send a command which states please set the field to this particular value.
+And thanks to the chain of responsibility, you can also have other listeners to this command being
+sent and they can override the behavior of the actual command or indeed the query.

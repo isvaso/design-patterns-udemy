@@ -1,0 +1,6 @@
+Proxy vs Decorator:
+1. Proxy provides an identical interface;
+   decorator provides an enhanced interface.
+2. Decorator typically aggregates (or has reference to) what it is decorating;
+   proxy doesn't have to.
+3. Proxy might not even be working with a materialized object.

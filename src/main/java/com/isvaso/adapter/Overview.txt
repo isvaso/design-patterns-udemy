@@ -1,0 +1,11 @@
+Adapter.
+A construct which adapts and existing interface X to conform to th required interface Y.
+Getting the interface you want from the interface you have.
+
+Analogue from live:
+1. Electrical devices have different power (interface) requirements:
+   - Voltage (5V, 220V);
+   - Socket/plug type (Europe, UK, USA)
+2. We cannot modify our gadgets to support every possible interface
+   - Some support possible (e.g., 120/220V)
+3. Thus, we use a special device (an adapter), to give us the interface we require from interface we have.

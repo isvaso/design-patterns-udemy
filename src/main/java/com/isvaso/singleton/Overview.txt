@@ -1,0 +1,19 @@
+Singleton.
+A component which is instantiated only once.
+A design pattern everyone loves to hate... but is it really that bad?
+
+"When discussing which patterns to drop, we found that we still love them all.
+(Not really - I'm in  favor of dropping Singleton. Its use is almost always a design smell)."
+- Erich Gamma
+
+Motivation.
+1. For some components it only makes sense to have one in the system
+   - Database repository
+   - Object factory
+2. E.g., the constructor call is expensive
+   - We only do it once
+   - We provide everyone with the same instance
+3. Want to prevent anyone creating additional copies
+4. Need to take care of lazy instantiation and thread safety
+
+PS. Dependency Injection just this idea of providing a dependency.

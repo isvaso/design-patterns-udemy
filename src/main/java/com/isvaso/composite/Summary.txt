@@ -1,0 +1,7 @@
+Summary.
+
+1. Objects can use other objects via inheritance / composition;
+2. Some composed and singular objects need similar / identical behaviors;
+3. Composite design pattern lets us treat both types of objects uniformly;
+4. Java supports container iteration with the Iterable<T> interface;
+5. A single object can masquerade as a collection containing only this.

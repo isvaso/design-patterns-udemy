@@ -1,0 +1,5 @@
+Summary.
+
+1. Chain of Responsibility can be implemented as a chain of references or a centralized construct;
+2. Enlist objects int he chain, possibly controlling their order;
+3. Object removal from chain (e.g., in AutoCloseable's close()).

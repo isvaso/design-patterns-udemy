@@ -1,0 +1,16 @@
+Composite.
+A mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner.
+Treating individual and aggregate objects uniformly.
+
+Example:
+Adobe Illustrator or something basic like PowerPoint, you know that in addition to having several
+different shapes separate, you can also take several graphics shapes and group them together
+and drag them as a group. And this is a classic implementation of the composite design pattern.
+
+Motivation.
+1. Objects use other objects' fields / methods through inheritance and composition;
+2. Composition lets us make compound objects:
+   - E.g., a mathematical expression composed of simple expressions; or
+   - A shape group made of several different shapes.
+3. Composite design pattern is used to treat both single (scalar) and composite objects uniformly:
+   - I.e., Foo and List<Foo> have common APIs.

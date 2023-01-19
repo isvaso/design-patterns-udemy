@@ -1,0 +1,14 @@
+Flyweight.
+A space optimization technique that lets us use less memory by storing
+externally the data associated with similar objects.
+Space optimization!
+
+Motivation.
+1. Avoid redundancy when storing data;
+2. E.g., MMORPG:
+   - Plenty of users with identical first / last names;
+   - No sense in storing same first / last name over and over again;
+   - Store a list of names and pointers of them.
+3. E.g., bold or italic text in the console:
+   - Don't want each character to have a formatting character;
+   - Operate on rangers (e.g., line number, start / end positions).

@@ -1,0 +1,5 @@
+Summary.
+1. Implementing and Adapter is easy;
+2. Determine the API you have and the API you need;
+3. Create component which aggregates (has a reference to, ...) the adapter;
+4. Intermediate representations can pile up: use caching and other optimizations.

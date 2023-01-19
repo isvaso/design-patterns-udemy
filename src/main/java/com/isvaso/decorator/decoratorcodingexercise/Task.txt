@@ -1,0 +1,6 @@
+The following code scenario shows a Dragon
+which is both a Bird  and a Lizard .
+
+Complete the Dragon 's interface
+(there's no need to extract any interfaces!).
+Take special care when implementing setAge() !
