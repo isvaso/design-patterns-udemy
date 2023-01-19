@@ -1,0 +1,14 @@
+Command.
+An object which represents an instruction to perform a particular action.
+Contains all the information necessary for the action to be taken.
+
+YOU SHALL NOT PASS!
+
+Motivation.
+1. Ordinary Java statements are perishable
+   - Cannot undo a field assigment
+   - Cannot directly serialize a sequence of actions (calls)
+2. Want an object that represents an operation
+   - X should change its field Y to value Z
+   - X should do w()
+3. Uses: GUI commands, multi-level undo/redo, macro recording and more!
