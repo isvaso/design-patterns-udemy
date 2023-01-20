@@ -1,0 +1,13 @@
+Iterator.
+An objects that facilitates the traversal of a data structure.
+
+How traversal of data structures happens and who makes it happen.
+
+Motivation.
+1. Iteration (traversal) is a core functionality of various data structures;
+2. An iterator is a class that facilities the traversal:
+   - Keeps a reference to the current element
+   - Knows how to move to a different element
+3. Java has Iterator<T> and Iterable<T>
+   - Iterator<T> specifies the iterator API
+   - A class needs to be Iterable in order to support for (Foo foo : bar) loops

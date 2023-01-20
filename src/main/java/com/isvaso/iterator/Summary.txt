@@ -1,0 +1,5 @@
+Summary.
+
+1. An iterator specified how you can traverse an object;
+2. Iterator cannot be recursive(no coroutines);
+3. Iterator implements Iterator<T>, iterable object implements Iterable<T>;
