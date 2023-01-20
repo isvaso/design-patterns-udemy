@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Udemy_DesignPatternsInJava" options="--add-exports java.base/jdk.internal=ALL-UNNAMED" />
+      <module name="Udemy_DesignPatternsInJava" options="" />
     </option>
   </component>
 </project>

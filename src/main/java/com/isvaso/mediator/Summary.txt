@@ -1,0 +1,8 @@
+Summary.
+
+1. Create the mediator and have each object in the system refer to it
+   - E.g., in a friend
+2. Mediator engages in bidirectional communication with its connected components
+3. Mediator has functions the components can call
+4. Components have functions the mediator can call
+5. Event processing (e.g., Rx) libraries make communication easier to implement.

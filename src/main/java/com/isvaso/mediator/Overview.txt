@@ -1,0 +1,13 @@
+Mediator.
+A components that facilitate communication between other components without them
+necessary being aware of each other or having direct (reference) access to each other.
+
+Facilitates communication between components.
+
+Motivation.
+1. Components may go in and out of s system at any time:
+   - Chat room participants;
+   - Players in MMORPG.
+2. It makes no sense for them to have direct references to one another
+   - The references nay go dead
+3. SolutionL have then all refer to some central component that facilitates communication.
