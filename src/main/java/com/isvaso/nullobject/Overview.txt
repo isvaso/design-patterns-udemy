@@ -1,0 +1,15 @@
+Null Object.
+A no-op object that conforms to the required
+interface, satisfying a dependency requirement
+of some other object.
+
+A behavioral design pattern with no behaviors :)
+
+Motivation.
+1. When component A uses component B, it typically assumes that B is non-null
+  - You inject B, not some Option<B> type
+  - You do not check for null on every call
+2. There is no option of felling A not to use an instance of B
+   - Its use is hard-coded
+3. Thus, we build a no-op, non-functioning inheritor of B
+   (or some interface that B implements) and pass it into A

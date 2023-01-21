@@ -1,0 +1,9 @@
+Null Object Coding Exercise
+In this example, we have a class Account
+that is very tightly coupled to a Log ...
+it also breaks SRP by performing all sorts
+of weird checks in someOperation() .
+
+Your mission, should you choose to accept it,
+is to implement a NullLog  class that can be fed into
+an Account  and that doesn't throw any exceptions.

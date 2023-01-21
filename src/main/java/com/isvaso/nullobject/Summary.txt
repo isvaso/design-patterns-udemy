@@ -1,0 +1,7 @@
+Summary.
+1. Implements the required interface;
+2. Rewrite the methods with empty bodies
+   - if method is non-void, return default value for a given type
+   - If these values are never used, your are in trouble
+3. Supply an instance of Null Object in place of actual object
+4. Cross your fingers ))))
