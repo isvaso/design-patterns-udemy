@@ -1,0 +1,34 @@
+Memento.
+A token/handle representing the system state.
+Lets us roll back to the state when the token
+was generated. May or may not directly expose
+state information.
+
+Keep a memento of an object's state to return to that state.
+
+Motivation.
+1. An object or system goes through changes
+   - E.g., a bank account gets deposits and withdrawals
+2. There are different ways of navigating those changes
+3. One way is to record every change (Command) and teach
+   a command to 'undo' itself
+4. Another is to simply save snapshots of the system.
+
+PS. So typically the memento should be a read-only structure because
+    otherwise you can restore the system to a state that the system was never in,
+    which seems a bit unfair and can be used maliciously and whatnot. So it's best
+    to keep the memento as an immutable kind of construct. Another limitation to memento
+    is the amount of memory that you're going to occupy. So here in the bank account,
+    we just have a single integer that we need to persist. Now, let's imagine you have
+    a huge structure with lots of variables and you're returning a memento on every turn.
+
+    Now, of course, if those mementos are not saved anywhere, they're going to be garbage collectors.
+    So it's not such a big deal.
+    But if somebody decides to store every single memento, then it's going to be a problem
+    in terms of the amount of memory that's required to actually keep every single piece of data.
+    And this is precisely the case where you might want to use the command design pattern instead,
+    because the command just lists the set of changes, not the set of states. And changes are
+    typically much smaller than the overall number of states, especially if you have lots of states.
+    But the changes are very small and incremental. In that case, you can save a lot of memory
+    by going with the common design pattern, or indeed you can go with a memento design pattern
+    that tries to compress the data somehow. That's also another possibility.

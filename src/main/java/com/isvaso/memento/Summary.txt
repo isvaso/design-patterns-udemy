@@ -1,0 +1,5 @@
+Summary.
+1. Mementos are used to roll back states arbitrarily
+2. A memento is simply a token/handle class with (typically) no functions of its own
+3. A memento is not required expose directly the state(s) to witch it revers the system
+4. Can be used to implement undo/redo

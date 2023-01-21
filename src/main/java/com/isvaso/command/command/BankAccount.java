@@ -1,6 +1,6 @@
 package com.isvaso.command.command;
 
-public class BankAccount {
+class BankAccount {
 
     private int balance;
     private int overdraftLimit = -500;
