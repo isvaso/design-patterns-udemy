@@ -1,0 +1,17 @@
+Observer.
+An observer is an object that wishes to
+be informed about events happening in
+the system. The entity generating the
+events is an observable.
+
+I am watching you!
+
+Motivation.
+1. We need yo be informed when certain things happen
+   - Object's filed changes
+   - Object does something
+   - Some external events occurs
+2. We want to listen to events and notifies when they occur
+3. Typical pattern involves addXxxListener()
+4. Java now has functional objects
+   - Supplier<T>, Consumer<T>, Function<T>

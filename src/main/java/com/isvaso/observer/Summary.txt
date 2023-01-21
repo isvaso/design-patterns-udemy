@@ -1,0 +1,5 @@
+Summary.
+1. Observer is an intrusive approach: an observable must provide an event to
+   subscribe to.
+2. Special care must be taken to prevent issues in multi-threaded scenarios
+3. Rx uses Observer<T> / Observable<T>

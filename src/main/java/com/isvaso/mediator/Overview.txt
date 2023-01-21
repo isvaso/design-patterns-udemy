@@ -1,6 +1,8 @@
 Mediator.
-A components that facilitate communication between other components without them
-necessary being aware of each other or having direct (reference) access to each other.
+A components that facilitate communication between
+other components without them necessary being aware
+of each other or having direct (reference) access
+to each other.
 
 Facilitates communication between components.
 
