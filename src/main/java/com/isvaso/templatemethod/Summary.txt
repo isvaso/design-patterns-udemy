@@ -1,0 +1,4 @@
+Summary.
+1. Define al algorithm at a high level
+2. Define constituted parts as abstract methods/properties
+3. Inherit the algorithm class, providing necessary overrides
