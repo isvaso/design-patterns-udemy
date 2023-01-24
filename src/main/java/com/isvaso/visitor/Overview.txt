@@ -1,0 +1,16 @@
+Visitor.
+A pattern where a component (visitor)
+is allowed to traverse the entire
+inheritance hierarchy. Implemented by
+propagating a single visit() method
+throughout the entire hierarchy.
+
+Allows adding extra behaviors to entire hierarchies of classes.
+
+Motivation.
+1. Need to define a new operation on an entire class hierarchy
+   - E.g., make a document model printable to HTML/Markdown
+2. Do not want to keep modifying every class in hierarchy
+3. Need access to the non-common aspects of classes int the hierarchy
+4. Create an external component to handle rendering
+   - But avoid type checks

@@ -1,7 +1,10 @@
 package com.isvaso.adapter.adaptercaching;
 
+import com.isvaso.logger.ProjectLogger;
+
 import java.util.*;
 import java.util.function.Consumer;
+import java.util.logging.Level;
 
 public class LineToPointAdapter implements Iterable<Point> {
 
@@ -9,7 +12,11 @@ public class LineToPointAdapter implements Iterable<Point> {
     private static Map<Integer, List<Point>> cache = new HashMap<>();
     private int hash;
 
+    private final ProjectLogger LOGGER
+            = ProjectLogger.getLogger(this.getClass().getName());
+
     public LineToPointAdapter(Line line) {
+        LOGGER.log(Level.INFO, "Constructor");
 
         hash = line.hashCode();
 
@@ -54,16 +61,19 @@ public class LineToPointAdapter implements Iterable<Point> {
 
     @Override
     public Iterator<Point> iterator() {
+        LOGGER.log(Level.INFO, "iterator()");
         return cache.get(hash).iterator();
     }
 
     @Override
     public void forEach(Consumer<? super Point> action) {
+        LOGGER.log(Level.INFO, "forEach()");
         cache.get(hash).forEach(action);
     }
 
     @Override
     public Spliterator<Point> spliterator() {
+        LOGGER.log(Level.INFO, "spliterator()");
         return cache.get(hash).spliterator();
     }
 }

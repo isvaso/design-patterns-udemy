@@ -1,12 +1,20 @@
 package com.isvaso.adapter.vectorrasterdemo;
 
+import com.isvaso.logger.ProjectLogger;
+
 import java.util.ArrayList;
+import java.util.logging.Level;
 
 public class LineToPointAdapter extends ArrayList<Point> {
 
     private static int count = 0;
 
+    private final ProjectLogger LOGGER
+            = ProjectLogger.getLogger(this.getClass().getName());
+
     public LineToPointAdapter(Line line) {
+        LOGGER.log(Level.INFO, "LineToPointAdapter()");
+
         System.out.println(
                 String.format("%d: Generating point for line [%d, %d]-[%d, %d] (no caching)",
                         ++count, line.start.x, line.start.y, line.end.x, line.end.y)

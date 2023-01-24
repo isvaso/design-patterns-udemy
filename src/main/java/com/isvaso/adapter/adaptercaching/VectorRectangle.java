@@ -1,8 +1,17 @@
 package com.isvaso.adapter.adaptercaching;
 
+import com.isvaso.logger.ProjectLogger;
+
+import java.util.logging.Level;
+
 public class VectorRectangle extends VectorObject {
 
+    private final ProjectLogger LOGGER
+            = ProjectLogger.getLogger(this.getClass().getName());
+
     public VectorRectangle(int x, int y, int width, int height) {
+        LOGGER.log(Level.INFO, "Constructor");
+
         add(new Line(
                 new Point(x ,y),
                 new Point(x + width, y)

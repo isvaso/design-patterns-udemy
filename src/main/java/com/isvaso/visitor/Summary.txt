@@ -1,0 +1,6 @@
+Summary.
+1. Propagate an accept(Visitor v) method throughout the entire hierarchy
+2. Create a visitor with visit(Foo), visit(Bar),
+   ...for each element int the hierarchy
+3. Each accept() simply calls visitor.visit(this)
+4. Acyclic visitor allows greater flexibility at a cost to performance
