@@ -1,0 +1,114 @@
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=3, y=3}, Point{x=3, y=4}, Point{x=3, y=5}, Point{x=3, y=6}, Point{x=3, y=7}, Point{x=3, y=8}, Point{x=3, y=9}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=4}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=5}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=6}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=7}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=8}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=3, y=9}, end=Point{x=9, y=9}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 1014486152
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=3, y=9}, Point{x=4, y=9}, Point{x=5, y=9}, Point{x=6, y=9}, Point{x=7, y=9}, Point{x=8, y=9}, Point{x=9, y=9}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=4, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=5, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=6, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=7, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=8, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=1, y=1}, end=Point{x=11, y=1}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 1665197552
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=1, y=1}, Point{x=2, y=1}, Point{x=3, y=1}, Point{x=4, y=1}, Point{x=5, y=1}, Point{x=6, y=1}, Point{x=7, y=1}, Point{x=8, y=1}, Point{x=9, y=1}, Point{x=10, y=1}, Point{x=11, y=1}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=2, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=4, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=5, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=6, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=7, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=8, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=10, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=11, y=1}, end=Point{x=11, y=11}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 33533830
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=11, y=1}, Point{x=11, y=2}, Point{x=11, y=3}, Point{x=11, y=4}, Point{x=11, y=5}, Point{x=11, y=6}, Point{x=11, y=7}, Point{x=11, y=8}, Point{x=11, y=9}, Point{x=11, y=10}, Point{x=11, y=11}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=2}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=4}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=5}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=6}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=7}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=8}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=10}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=1, y=1}, end=Point{x=1, y=11}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 1813666644
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=1, y=1}, Point{x=1, y=2}, Point{x=1, y=3}, Point{x=1, y=4}, Point{x=1, y=5}, Point{x=1, y=6}, Point{x=1, y=7}, Point{x=1, y=8}, Point{x=1, y=9}, Point{x=1, y=10}, Point{x=1, y=11}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=1}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=2}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=4}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=5}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=6}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=7}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=8}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=10}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=1, y=11}, end=Point{x=11, y=11}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 1611241809
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=1, y=11}, Point{x=2, y=11}, Point{x=3, y=11}, Point{x=4, y=11}, Point{x=5, y=11}, Point{x=6, y=11}, Point{x=7, y=11}, Point{x=8, y=11}, Point{x=9, y=11}, Point{x=10, y=11}, Point{x=11, y=11}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=1, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=2, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=4, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=5, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=6, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=7, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=8, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=10, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=11, y=11}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=3, y=3}, end=Point{x=9, y=3}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 510276116
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=3, y=3}, Point{x=4, y=3}, Point{x=5, y=3}, Point{x=6, y=3}, Point{x=7, y=3}, Point{x=8, y=3}, Point{x=9, y=3}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=4, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=5, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=6, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=7, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=8, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=9, y=3}, end=Point{x=9, y=9}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 443384617
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=9, y=3}, Point{x=9, y=4}, Point{x=9, y=5}, Point{x=9, y=6}, Point{x=9, y=7}, Point{x=9, y=8}, Point{x=9, y=9}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=4}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=5}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=6}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=7}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=8}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=3, y=3}, end=Point{x=3, y=9}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 1908043086
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=3, y=3}, Point{x=3, y=4}, Point{x=3, y=5}, Point{x=3, y=6}, Point{x=3, y=7}, Point{x=3, y=8}, Point{x=3, y=9}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=3}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=4}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=5}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=6}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=7}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=8}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - draw Line{start=Point{x=3, y=9}, end=Point{x=9, y=9}}
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - LineToPoint hash: 1014486152
+2023-01-28 18:16:24 [INFO ] [LineToPointAdapter] - cache.get(hash) != null: [Point{x=3, y=9}, Point{x=4, y=9}, Point{x=5, y=9}, Point{x=6, y=9}, Point{x=7, y=9}, Point{x=8, y=9}, Point{x=9, y=9}]
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=3, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=4, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=5, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=6, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=7, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=8, y=9}
+2023-01-28 18:16:24 [INFO ] [Main] - drawPoint Point{x=9, y=9}
